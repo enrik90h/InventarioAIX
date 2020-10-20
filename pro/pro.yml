@@ -1,5 +1,5 @@
 all:
-    chilldren:
+    children:
         master:
             hosts:
                 master[01:03].kuber.pre:
