@@ -5,10 +5,10 @@ all:
                 master[01:03].kuber.pre:
         etcd:
             hosts:
-                etcd[1:3].kuber.pro:
+                etcd[01:03].kuber.pro:
         proxies:
             hosts:
                 proxies[01:10].kuber.pro:
         management:
             hosts:
-                management[01:2].kuber.pro:
+                management[01:02].kuber.pro:
